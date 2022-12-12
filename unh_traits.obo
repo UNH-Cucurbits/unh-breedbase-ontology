@@ -125,138 +125,138 @@ is_a: UNH_01:Biotic
 id: UNH_01:0001001
 name: fruit plot count yield [ct]  
 def: "Plot fruit yield as total fruit count per plot" []
-variable_of: UNH_01:0000006 
+relationship: variable_of UNH_01:0000006 
 
 [Term]
 id: UNH_01:0001002
 name: fruit plot wieight yield [kg]    
 def: "Plot fruit yield as total fruit weight per plot in kilograms" []
-variable_of: UNH_01:0000006 
+relationship: variable_of UNH_01:0000006 
 
 [Term]
 id: UNH_01:0001003
 name: plot fill [%]   
 def: "Proportion of plot filled as a percentage" []
-variable_of: UNH_01:0000015 
+relationship: variable_of UNH_01:0000015 
 
 [Term]
 id: UNH_01:0001004
 name: precocious yellow [t/f]    
 def: "Pre-anthesis yellowing of fruit True/False" []
-variable_of: UNH_01:0000003 
+relationship: variable_of UNH_01:0000003 
 
 [Term]
 id: UNH_01:0001005
 name: fruit uniformity [t/f]    
 def: "Fruit in plot appear uniform True/False" []
-variable_of: UNH_01:0000014 
+relationship: variable_of UNH_01:0000014 
 
 [Term]
 id: UNH_01:0001006
 name: harvest plot general health [1-5]    
 def: "Rating of plot plant health at harvest (1=very unhealthy; 2=unhealthy;3=fair healt;4=healthy;5=very healthy)" []
-variable_of: UNH_01:0000016 
+relationship: variable_of UNH_01:0000016 
 
 [Term]
 id: UNH_01:0001007
 name: pm plant parts [1-5]    
 def: "Plant parts affected by powdery mildew (1=peduncle;2=vine;3=petioles;4=leaves;5=none)" []
-variable_of: UNH_01:0000017 
+relationship: variable_of UNH_01:0000017 
 
 [Term]
 id: UNH_01:0001008
 name: peduncle plecto [t/f]    
 def: "Presence of plectosporium on stem True/False" []
-variable_of: UNH_01:0000018 
+relationship: variable_of UNH_01:0000018 
 
 [Term]
 id: UNH_01:0001009
 name: fruit acceptability [1-9]    
 def: "Attractiveness of fruit (1=very ugly;3=unattractive;5=average for type;7=attractive;9=very attractive" []
-variable_of: UNH_01:0000014 
+relationship: variable_of UNH_01:0000014 
 
 [Term]
 id: UNH_01:0001011
 name: fruit weight [kg]    
 def: "Weight of a single fruit in kilograms" []
-variable_of: UNH_01:0000009 
+relationship: variable_of UNH_01:0000009 
 
 [Term]
 id: UNH_01:0001012
 name: fruit weight [g]    
 def: "Weight of a single fruit in grams" []
-variable_of: UNH_01:0000009 
+relationship: variable_of UNH_01:0000009 
 
 [Term]
 id: UNH_01:0001013
 name: fruit length [cm]    
 def: "Length of fruit in centimeters" []
-variable_of: UNH_01:0000007 
+relationship: variable_of UNH_01:0000007 
 
 [Term]
 id: UNH_01:0001014
 name: fruit width [cm]    
 def: "Width of fruit in centimeters" []
-variable_of: UNH_01:0000008 
+relationship: variable_of UNH_01:0000008 
 
 [Term]
 id: UNH_01:0001015
 name: flesh thickness max [mm]    
 def: "Maximum flesh thickness in millimeters" []
-variable_of: UNH_01:0000013 
+relationship: variable_of UNH_01:0000013 
 
 [Term]
 id: UNH_01:0001016
 name: peduncle length [mm]    
 def: "Peduncle length in millimeters" []
-variable_of: UNH_01:0000011 
+relationship: variable_of UNH_01:0000011 
 
 [Term]
 id: UNH_01:0001017
 name: peduncle diameter [mm]    
 def: "Peduncle diameter in millimeters" []
-variable_of: UNH_01:0000012 
+relationship: variable_of UNH_01:0000012 
 
 [Term]
 id: UNH_01:0001018
 name: dry matter weight [g]     
 def: "Weight of an approximetely 15 gram fruit sample after dehydration" []
-variable_of: UNH_01:0000002 
+relationship: variable_of UNH_01:0000002 
 
 [Term]
 id: UNH_01:0001019
 name: wet matter weight [g]     
 def: "Weight of an approximetely 15 gram fruit sample before dehydration" []
-variable_of: UNH_01:0000002 
+relationship: variable_of UNH_01:0000002 
 
 [Term]
 id: UNH_01:0001020
 name: percent dry matter [%]     
 def: "Percent dry matter as (dry matter weight/wet matter weight) * 100" []
-variable_of: UNH_01:0000002 
+relationship: variable_of UNH_01:0000002 
 
 [Term]
 id: UNH_01:0001021
 name: Brix [%]     
 def: "Degrees brix measured by a refractometer" []
-variable_of: UNH_01:0000001 
+relationship: variable_of UNH_01:0000001 
 
 [Term]
 id: UNH_01:0001022
 name: flesh L [minolta]     
 def: "L colorspace measurement of flesh with minolta colorimeter with illuminant D65 and 10% viewer" []
-variable_of: UNH_01:0000004 
+relationship: variable_of UNH_01:0000004 
 
 [Term]
 id: UNH_01:0001023
 name: flesh a [minolta]     
 def: "a colorspace measurement of flesh with minolta colorimeter with illuminant D65 and 10% viewer" []
-variable_of: UNH_01:0000004 
+relationship: variable_of UNH_01:0000004 
 
 [Term]
 id: UNH_01:0001024
 name: flesh b [minolta]     
 def: "b colorspace measurement of flesh with minolta colorimeter with illuminant D65 and 10% viewer" []
-variable_of: UNH_01:0000004 
+relationship: variable_of UNH_01:0000004 
 
 
