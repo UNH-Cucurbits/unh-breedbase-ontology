@@ -2,7 +2,7 @@ format-version: 1.2
 ontology: unh_cucurbit_ontology
 default-namespace: unh-cucurbit
 
-[Term[
+[Term]
 id: UNH_01:ROOT
 name: UNH_Cucurbit
 
