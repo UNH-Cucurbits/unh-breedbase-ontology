@@ -237,7 +237,7 @@ relationship: variable_of UNH_01:0000002
 
 [Term]
 id: UNH_01:0001021
-name: Brix [%]     
+name: brix [%]     
 def: "Degrees brix measured by a refractometer" []
 relationship: variable_of UNH_01:0000001 
 
