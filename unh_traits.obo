@@ -261,8 +261,8 @@ relationship: variable_of UNH_01:0000004
 
 [Term]
 id: UNH_01:0001025
-name: rind color [eye]     
-def: "General color of rind based on subjective visual observation" []
+name: fruit plot harvest picture [photo]    
+def: "Photo of fruit harvested per plot" []
 relationship: variable_of UNH_01:0000014 
 
 
