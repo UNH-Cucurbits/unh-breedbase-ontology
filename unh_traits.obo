@@ -265,4 +265,27 @@ name: fruit plot harvest picture [photo]
 def: "Photo of fruit harvested per plot" []
 relationship: variable_of UNH_01:0000014 
 
+[Term]
+id: UNH_01:0001026
+name: idividual fruit picture [photo]    
+def: "Photo of individual fruit taken in photo booth" []
+relationship: variable_of UNH_01:0000014 
+
+[Term]
+id: UNH_01:0001027
+name: rind L [minolta]     
+def: "L colorspace measurement of fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
+relationship: variable_of UNH_01:0000003 
+
+[Term]
+id: UNH_01:0001028
+name: rind a [minolta]     
+def: "a colorspace measurement of fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
+relationship: variable_of UNH_01:0000003 
+
+[Term]
+id: UNH_01:0001029
+name: rind b [minolta]     
+def: "b colorspace measurement of fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
+relationship: variable_of UNH_01:0000003 
 
