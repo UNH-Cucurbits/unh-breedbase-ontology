@@ -122,6 +122,16 @@ name: Plectosporium
 is_a: UNH_01:Biotic
 
 [Term]
+id: UNH_01:0000019
+name: Maturity 
+is_a: UNH_01:Agronomic
+
+[Term]
+id: UNH_01:0000019
+name: Plant architecture 
+is_a: UNH_01:Agronomic
+
+[Term]
 id: UNH_01:0001001
 name: fruit plot count yield [ct]  
 def: "Plot fruit yield as total fruit count per plot" []
@@ -288,4 +298,53 @@ id: UNH_01:0001029
 name: rind b [minolta]     
 def: "b colorspace measurement of fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
 relationship: variable_of UNH_01:0000003 
+
+[Term]
+id: UNH_01:0001030
+name: Female flowering date plot [yd]     
+def: "Date in year-day when at least 80% of the plot has flowering female flowers" []
+relationship: variable_of UNH_01:0000019 
+
+[Term]
+id: UNH_01:0001031
+name: Male flowering date plot [yd]     
+def: "Date in year-day when at least 80% of the plot has flowering male flowers" []
+relationship: variable_of UNH_01:0000019 
+
+[Term]
+id: UNH_01:0001032
+name: First female flowering date plant [yd]     
+def: "Date in year-day of first flowering female on plant" []
+relationship: variable_of UNH_01:0000019 
+
+[Term]
+id: UNH_01:0001033
+name: Second female flowering date plant [yd]     
+def: "Date in year-day of second flowering female on plant" []
+relationship: variable_of UNH_01:0000019 
+
+[Term]
+id: UNH_01:0001034
+name: Third female flowering date plant [yd] 
+def: "Date in year-day of third flowering female on plant" []
+relationship: variable_of UNH_01:0000019 
+
+[Term]
+id: UNH_01:0001035
+name: First male flowering date plant [yd]     
+def: "Date in year-day of first flowering male on plant" []
+relationship: variable_of UNH_01:0000019 
+
+[Term]
+id: UNH_01:0001036
+name: Second male flowering date plant [yd]     
+def: "Date in year-day of second flowering male on plant" []
+relationship: variable_of UNH_01:0000019 
+
+[Term]
+id: UNH_01:0001037
+name: Third male flowering date plant [yd]     
+def: "Date in year-day of third flowering male on plant" []
+relationship: variable_of UNH_01:0000019 
+
 
