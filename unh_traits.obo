@@ -127,7 +127,7 @@ name: Maturity
 is_a: UNH_01:Agronomic
 
 [Term]
-id: UNH_01:0000019
+id: UNH_01:0000020
 name: Plant architecture 
 is_a: UNH_01:Agronomic
 
@@ -346,5 +346,36 @@ id: UNH_01:0001037
 name: Third male flowering date plant [yd]     
 def: "Date in year-day of third flowering male on plant" []
 relationship: variable_of UNH_01:0000019 
+
+[Term]
+id: UNH_01:0001038
+name: eigth internode length [cm]       
+def: "Length in centimeters of internode between node 7 and 8" []
+relationship: variable_of UNH_01:0000020 
+
+[Term]
+id: UNH_01:0001039
+name: eigth internode length [mm]       
+def: "Length in millimeter of internode between node 7 and 8" []
+relationship: variable_of UNH_01:0000020 
+
+[Term]
+id: UNH_01:0001040
+name: eigth internode thickness [mm]       
+def: "Thickness in millimeter of internode between node 7 and 8" []
+relationship: variable_of UNH_01:0000020 
+
+[Term]
+id: UNH_01:0001041
+name: twenty-node vine length [cm]       
+def: "Length of first twenty nodes in centimeters" []
+relationship: variable_of UNH_01:0000020 
+
+[Term]
+id: UNH_01:0001042
+name: bush plant type [binary]       
+def: "Bush plant type as true or false" []
+relationship: variable_of UNH_01:0000020 
+
 
 
