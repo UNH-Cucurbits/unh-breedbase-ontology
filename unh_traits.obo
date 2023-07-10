@@ -132,6 +132,11 @@ name: Plant architecture
 is_a: UNH_01:Agronomic
 
 [Term]
+id: UNH_01:0000021
+name: Flower morphology 
+is_a: UNH_01:Morphological
+
+[Term]
 id: UNH_01:0001001
 name: fruit plot count yield [ct]  
 def: "Plot fruit yield as total fruit count per plot" []
@@ -374,8 +379,12 @@ relationship: variable_of UNH_01:0000020
 [Term]
 id: UNH_01:0001042
 name: bush plant type [binary]       
-def: "Bush plant type as true or false" []
+def: "Bush plant type as true or false; bush is true" []
 relationship: variable_of UNH_01:0000020 
 
-
+[Term]
+id: UNH_01:0001043
+name: slotted female flower [binary]       
+def: "Abnormal slotted female flower as true or false; slotted is true" []
+relationship: variable_of UNH_01:0000021 
 
