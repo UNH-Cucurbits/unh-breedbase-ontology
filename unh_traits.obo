@@ -288,20 +288,20 @@ relationship: variable_of UNH_01:0000014
 
 [Term]
 id: UNH_01:0001027
-name: rind L [minolta]     
-def: "L colorspace measurement of fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
+name: rind L physiological maturity [minolta]     
+def: "L colorspace measurement of mature fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
 relationship: variable_of UNH_01:0000003 
 
 [Term]
 id: UNH_01:0001028
-name: rind a [minolta]     
-def: "a colorspace measurement of fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
+name: rind a physiological maturity [minolta]     
+def: "a colorspace measurement of mature fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
 relationship: variable_of UNH_01:0000003 
 
 [Term]
 id: UNH_01:0001029
-name: rind b [minolta]     
-def: "b colorspace measurement of fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
+name: rind b pysiological maturity [minolta]     
+def: "b colorspace measurement of mature fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
 relationship: variable_of UNH_01:0000003 
 
 [Term]
@@ -388,3 +388,14 @@ name: slotted female flower [binary]
 def: "Abnormal slotted female flower as true or false; slotted is true" []
 relationship: variable_of UNH_01:0000021 
 
+[Term]
+id: UNH_01:0001044
+name: prematurely open female flower [binary]       
+def: "Abnormal female flower that opens before flowering as true or false; slotted is true" []
+relationship: variable_of UNH_01:0000021 
+
+[Term]
+id: UNH_01:0001044
+name: bush-vine plant habit [cat]       
+def: "Plant habit as bush/semi-bush/vine" []
+relationship: variable_of UNH_01:0000020 
