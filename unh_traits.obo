@@ -379,7 +379,7 @@ relationship: variable_of UNH_01:0000020
 [Term]
 id: UNH_01:0001042
 name: bush plant type [binary]       
-def: "Bush plant type as true or false; bush is true" []
+def: "Early bush plant type rating as true or false; bush is true" []
 relationship: variable_of UNH_01:0000020 
 
 [Term]
@@ -395,7 +395,19 @@ def: "Abnormal female flower that opens before flowering as true or false; slott
 relationship: variable_of UNH_01:0000021 
 
 [Term]
-id: UNH_01:0001044
-name: bush-vine plant habit [cat]       
+id: UNH_01:0001045
+name: bush-vine developmental pattern [cat]       
 def: "Plant habit as bush/semi-bush/vine" []
+relationship: variable_of UNH_01:0000020 
+
+[Term]
+id: UNH_01:0001046
+name: Degree vine plant habit [cat] 
+def: "Plant habit as compact-bush/bush/semi-bush/medium-vine/vine" []
+relationship: variable_of UNH_01:0000020 
+
+[Term]
+id: UNH_01:0001047
+name: Main vine length [inches]       
+def: "Total length in inches of main vine" []
 relationship: variable_of UNH_01:0000020 
