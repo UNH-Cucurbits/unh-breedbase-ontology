@@ -282,7 +282,7 @@ relationship: variable_of UNH_01:0000014
 
 [Term]
 id: UNH_01:0001026
-name: idividual fruit picture [photo]    
+name: idividual fruit photo booth picture [photo]    
 def: "Photo of individual fruit taken in photo booth" []
 relationship: variable_of UNH_01:0000014 
 
@@ -411,3 +411,9 @@ id: UNH_01:0001047
 name: Main vine length [inches]       
 def: "Total length in inches of main vine" []
 relationship: variable_of UNH_01:0000020 
+
+[Term]
+id: UNH_01:0001048
+name: idividual fruit photo [photo]    
+def: "Photo of individual fruit" []
+relationship: variable_of UNH_01:0000014 
