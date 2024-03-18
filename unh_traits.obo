@@ -32,6 +32,11 @@ name: Morphological Trait
 is_a: UNH_01:ROOT
 
 [Term]
+id: UNH_01:Management 
+name: Management Trait
+is_a: UNH_01:ROOT
+
+[Term]
 id: UNH_01:0000001
 name: Sugar 
 is_a: UNH_01:Quality
@@ -135,6 +140,21 @@ is_a: UNH_01:Agronomic
 id: UNH_01:0000021
 name: Flower morphology 
 is_a: UNH_01:Morphological
+
+[Term]
+id: UNH_01:0000023
+name: Pollination date 
+is_a: UNH_01:Management
+
+[Term]
+id: UNH_01:0000024
+name: Measurement date 
+is_a: UNH_01:Management
+
+[Term]
+id: UNH_01:0000025
+name: Subsample number 
+is_a: UNH_01:Management
 
 [Term]
 id: UNH_01:0001001
@@ -306,50 +326,50 @@ relationship: variable_of UNH_01:0000003
 
 [Term]
 id: UNH_01:0001030
-name: Female flowering date plot [yd]     
-def: "Date in year-day when at least 80% of the plot has flowering female flowers" []
+name: Female flowering date plot [date]     
+def: "Date when least 80% of the plot has flowering female flowers" []
 relationship: variable_of UNH_01:0000019 
 
 [Term]
 id: UNH_01:0001031
-name: Male flowering date plot [yd]     
-def: "Date in year-day when at least 80% of the plot has flowering male flowers" []
+name: Male flowering date plot [date]     
+def: "Date when at least 80% of the plot has flowering male flowers" []
 relationship: variable_of UNH_01:0000019 
 
 [Term]
 id: UNH_01:0001032
-name: First female flowering date plant [yd]     
-def: "Date in year-day of first flowering female on plant" []
+name: First female flowering date plant [date]     
+def: "Date of first flowering female on plant" []
 relationship: variable_of UNH_01:0000019 
 
 [Term]
 id: UNH_01:0001033
-name: Second female flowering date plant [yd]     
-def: "Date in year-day of second flowering female on plant" []
+name: Second female flowering date plant [date]     
+def: "Date of second flowering female on plant" []
 relationship: variable_of UNH_01:0000019 
 
 [Term]
 id: UNH_01:0001034
-name: Third female flowering date plant [yd] 
-def: "Date in year-day of third flowering female on plant" []
+name: Third female flowering date plant [date] 
+def: "Date of third flowering female on plant" []
 relationship: variable_of UNH_01:0000019 
 
 [Term]
 id: UNH_01:0001035
-name: First male flowering date plant [yd]     
-def: "Date in year-day of first flowering male on plant" []
+name: First male flowering date plant [date]     
+def: "Date of first flowering male on plant" []
 relationship: variable_of UNH_01:0000019 
 
 [Term]
 id: UNH_01:0001036
-name: Second male flowering date plant [yd]     
-def: "Date in year-day of second flowering male on plant" []
+name: Second male flowering date plant [date]     
+def: "Date of second flowering male on plant" []
 relationship: variable_of UNH_01:0000019 
 
 [Term]
 id: UNH_01:0001037
-name: Third male flowering date plant [yd]     
-def: "Date in year-day of third flowering male on plant" []
+name: Third male flowering date plant [date]     
+def: "Date of third flowering male on plant" []
 relationship: variable_of UNH_01:0000019 
 
 [Term]
@@ -403,7 +423,7 @@ relationship: variable_of UNH_01:0000020
 [Term]
 id: UNH_01:0001046
 name: Degree vine plant habit [cat] 
-def: "Plant habit as compact-bush/bush/semi-bush/medium-vine/vine" []
+def: "Late season plant habit as compact-bush/bush/semi-bush/medium-vine/vine" []
 relationship: variable_of UNH_01:0000020 
 
 [Term]
@@ -417,3 +437,133 @@ id: UNH_01:0001048
 name: idividual fruit photo [photo]    
 def: "Photo of individual fruit" []
 relationship: variable_of UNH_01:0000014 
+
+[Term]
+id: UNH_01:0001049
+name: pollination window date [date]    
+def: "Date of pollination window corresponding to colored tag" []
+relationship: variable_of UNH_01:0000023 
+
+[Term]
+id: UNH_01:0001050
+name: quality measurement date [date]    
+def: "Date when quality measurements were taken" []
+relationship: variable_of UNH_01:0000024 
+
+[Term]
+id: UNH_01:0001051
+name: fruit plot wieght multiple yield 1st [kg]    
+def: "First plot fruit yield as total fruit weight per plot in kilograms" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001052
+name: fruit plot wieght multiple yield 2nd [kg]    
+def: "Second plot fruit yield as total fruit weight per plot in kilograms" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001053
+name: fruit plot wieght multiple yield 3rd [kg]    
+def: "Third plot fruit yield as total fruit weight per plot in kilograms" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001054
+name: fruit plot wieght multiple yield 4th [kg]    
+def: "Fourth plot fruit yield as total fruit weight per plot in kilograms" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001055
+name: fruit plot wieght multiple yield 5th [kg]    
+def: "Fifth plot fruit yield as total fruit weight per plot in kilograms" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001056
+name: fruit plot wieght multiple yield 6th [kg]    
+def: "Sixth plot fruit yield as total fruit weight per plot in kilograms" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001057
+name: fruit plot count multiple yield 1st [ct]    
+def: "First plot fruit yield as total fruit count per plot" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001058
+name: fruit plot count multiple yield 2nd [ct]    
+def: " plot fruit yield as total fruit count per plot" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001059
+name: fruit plot count multiple yield 3rd [ct]    
+def: "Third plot fruit yield as total fruit count per plot" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001060
+name: fruit plot count multiple yield 4th [ct]    
+def: "Fourth plot fruit yield as total fruit count per plot" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001061
+name: fruit plot count multiple yield 5th [ct]    
+def: "Fifth plot fruit yield as total fruit count per plot" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001062
+name: fruit plot count multiple yield 6th [ct]    
+def: "Sixth plot fruit yield as total fruit count per plot" []
+relationship: variable_of UNH_01:0000006 
+
+[Term]
+id: UNH_01:0001063
+name: fruit plot multiple yield date 1st [date]    
+def: "Date of first yield measurement" []
+relationship: variable_of UNH_01:0000024 
+
+[Term]
+id: UNH_01:0001064
+name: fruit plot multiple yield date 2nd [date]    
+def: "Date of second yield measurement" []
+relationship: variable_of UNH_01:0000024 
+
+[Term]
+id: UNH_01:0001065
+name: fruit plot multiple yield date 3rd [date]    
+def: "Date of third yield measurement" []
+relationship: variable_of UNH_01:0000024 
+
+[Term]
+id: UNH_01:0001066
+name: fruit plot multiple yield date 4th [date]    
+def: "Date of fourth yield measurement" []
+relationship: variable_of UNH_01:0000024 
+
+[Term]
+id: UNH_01:0001067
+name: fruit plot multiple yield date 5th [date]    
+def: "Date of fifth yield measurement" []
+relationship: variable_of UNH_01:0000024 
+
+[Term]
+id: UNH_01:0001068
+name: fruit plot multiple yield date 6th [date]    
+def: "Date of sixth yield measurement" []
+relationship: variable_of UNH_01:0000024 
+
+[Term]
+id: UNH_01:0001069
+name: Seed yield plot fruit subsample number [ct]    
+def: "Number of fruit used to estimate plot seed yield" []
+relationship: variable_of UNH_01:0000025 
+
+
+
+
