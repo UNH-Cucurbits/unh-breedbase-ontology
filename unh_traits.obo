@@ -564,6 +564,15 @@ name: Seed yield plot fruit subsample number [ct]
 def: "Number of fruit used to estimate plot seed yield" []
 relationship: variable_of UNH_01:0000025 
 
+[Term]
+id: UNH_01:0001070
+name: eigth internode measurment date [date]    
+def: "Date of eigth internode measurement" []
+relationship: variable_of UNH_01:0000024 
 
-
+[Term]
+id: UNH_01:0001071
+name: total vine length measurement date [date]    
+def: "Date of total vine length measurement" []
+relationship: variable_of UNH_01:0000024 
 
