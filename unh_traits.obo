@@ -576,3 +576,38 @@ name: total vine length measurement date [date]
 def: "Date of total vine length measurement" []
 relationship: variable_of UNH_01:0000024 
 
+[Term]
+id: UNH_01:0001072
+name: rotten fruit plot count [ct]    
+def: "Number of rotten fruit in a plot" []
+relationship: variable_of UNH_01:0000016 
+
+[Term]
+id: UNH_01:0001073
+name: twenty seed weight [g]    
+def: "Weight of twenty seeds in grams" []
+relationship: variable_of UNH_01:0000010
+
+[Term]
+id: UNH_01:0001074
+name: total subsample seed weight [g]    
+def: "Total seed weight of subsample in grams" []
+relationship: variable_of UNH_01:0000010
+
+[Term]
+id: UNH_01:0001075
+name: estimated total subsample seed count [ct]    
+def: "Estimated total seed count of subsample based on twenty seed weight" []
+relationship: variable_of UNH_01:0000010
+
+[Term]
+id: UNH_01:0001076
+name: estimated plot seed weight yield [kg]    
+def: "Estimated plot seed yield in kilograms" []
+relationship: variable_of UNH_01:0000010
+
+[Term]
+id: UNH_01:0001077
+name: estimated plot seed count yield [ct]    
+def: "Estimated total seeds per plot" []
+relationship: variable_of UNH_01:0000010
