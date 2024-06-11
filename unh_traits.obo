@@ -157,6 +157,11 @@ name: Subsample number
 is_a: UNH_01:Management
 
 [Term]
+id: UNH_01:0000026
+name: Plant Biomass 
+is_a: UNH_01:Agronomic
+
+[Term]
 id: UNH_01:0001001
 name: fruit plot count yield [ct]  
 def: "Plot fruit yield as total fruit count per plot" []
@@ -611,3 +616,34 @@ id: UNH_01:0001077
 name: estimated plot seed count yield [ct]    
 def: "Estimated total seeds per plot" []
 relationship: variable_of UNH_01:0000010
+
+[Term]
+id: UNH_01:0001078
+name: Total plant biomass dry weight 1st [g]    
+def: "First total biomass measurement of plant estimated from weighing dried tissue" []
+relationship: variable_of UNH_01:0000026
+
+[Term]
+id: UNH_01:0001079
+name: Total plant biomass dry weight 2nd [g]    
+def: "Second total biomass measurement of plant estimated from weighing dried tissue" []
+relationship: variable_of UNH_01:0000026
+
+[Term]
+id: UNH_01:0001080
+name: Total plant biomass dry weight 3rd [g]    
+def: "Third total biomass measurement of plant estimated from weighing dried tissue" []
+relationship: variable_of UNH_01:0000026
+
+[Term]
+id: UNH_01:0001081
+name: Total plant biomass dry weight 4th [g]    
+def: "Fourth total biomass measurement of plant estimated from weighing dried tissue" []
+relationship: variable_of UNH_01:0000026
+
+[Term]
+id: UNH_01:0001082
+name: Single fruit seed count [ct]    
+def: "Seed count from a single fruit" []
+relationship: variable_of UNH_01:0000010
+
