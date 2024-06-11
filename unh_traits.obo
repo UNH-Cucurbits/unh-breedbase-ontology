@@ -647,3 +647,27 @@ name: Single fruit seed count [ct]
 def: "Seed count from a single fruit" []
 relationship: variable_of UNH_01:0000010
 
+[Term]
+id: UNH_01:0001083
+name: Plant biomass dry weight 1st date [date]    
+def: "Date of first total biomass measurement" []
+relationship: variable_of UNH_01:0000024
+
+[Term]
+id: UNH_01:0001084
+name: Plant biomass dry weight 2nd date [date]    
+def: "Date of second total biomass measurement" []
+relationship: variable_of UNH_01:0000024
+
+[Term]
+id: UNH_01:0001085
+name: Plant biomass dry weight 3rd date [date]    
+def: "Date of third total biomass measurement" []
+relationship: variable_of UNH_01:0000024
+
+[Term]
+id: UNH_01:0001086
+name: Plant biomass dry weight 4th date [date]    
+def: "Date of fourth total biomass measurement" []
+relationship: variable_of UNH_01:0000024
+
