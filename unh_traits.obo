@@ -181,8 +181,8 @@ relationship: variable_of UNH_01:0000015
 
 [Term]
 id: UNH_01:0001004
-name: precocious yellow [t/f]    
-def: "Pre-anthesis yellowing of fruit True/False" []
+name: precocious yellow [cat]    
+def: "Pre-anthesis yellowing of fruit as precocious/normal" []
 relationship: variable_of UNH_01:0000003 
 
 [Term]
@@ -415,8 +415,8 @@ relationship: variable_of UNH_01:0000021
 
 [Term]
 id: UNH_01:0001044
-name: prematurely open female flower [binary]       
-def: "Abnormal female flower that opens before flowering as true or false; slotted is true" []
+name: prematurely open female flower [cat]       
+def: "Abnormal female flower that opens before flowering as closed/slotted" []
 relationship: variable_of UNH_01:0000021 
 
 [Term]
