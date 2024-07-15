@@ -403,8 +403,8 @@ relationship: variable_of UNH_01:0000020
 
 [Term]
 id: UNH_01:0001042
-name: bush plant type [binary]       
-def: "Early bush plant type rating as true or false; bush is true" []
+name: bush plant type [cat]       
+def: "Early bush plant type rating as Bush/Vine" []
 relationship: variable_of UNH_01:0000020 
 
 [Term]
@@ -671,3 +671,14 @@ name: Plant biomass dry weight 4th date [date]
 def: "Date of fourth total biomass measurement" []
 relationship: variable_of UNH_01:0000024
 
+[Term]
+id: UNH_01:0001087
+name: Plants per plot [ct]
+def: "Count of plants per plot at end of season" []
+relationship: variable_of UNH_01:0000015
+
+[Term]
+id: UNH_01:0001088
+name: First female flowering node plant [num]     
+def: "Node number of first flowering female on plant" []
+relationship: variable_of UNH_01:0000019 
