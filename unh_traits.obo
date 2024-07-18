@@ -440,7 +440,7 @@ relationship: variable_of UNH_01:0000020
 [Term]
 id: UNH_01:0001048
 name: idividual fruit photo [photo]    
-def: "Photo of individual fruit" []
+def: "Photo of individual fruit at maturity." []
 relationship: variable_of UNH_01:0000014 
 
 [Term]
@@ -682,3 +682,15 @@ id: UNH_01:0001088
 name: First female flowering node plant [num]     
 def: "Node number of first flowering female on plant" []
 relationship: variable_of UNH_01:0000019 
+
+[Term]
+id: UNH_01:0001089
+name: idividual immature fruit photo [photo]    
+def: "Photo of individual immature fruit." []
+relationship: variable_of UNH_01:0000014 
+
+[Term]
+id: UNH_01:0001090
+name: pollination date [date]    
+def: "Date of pollination." []
+relationship: variable_of UNH_01:0000023 
