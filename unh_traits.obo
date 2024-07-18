@@ -685,7 +685,7 @@ relationship: variable_of UNH_01:0000019
 
 [Term]
 id: UNH_01:0001089
-name: idividual immature fruit photo [photo]    
+name: individual immature fruit photo [photo]    
 def: "Photo of individual immature fruit." []
 relationship: variable_of UNH_01:0000014 
 
