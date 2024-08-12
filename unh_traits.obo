@@ -162,6 +162,16 @@ name: Plant Biomass
 is_a: UNH_01:Agronomic
 
 [Term]
+id: UNH_01:0000027
+name: Fruit rind texture 
+is_a: UNH_01:Morphological
+
+[Term]
+id: UNH_01:0000028
+name: Trichome 
+is_a: UNH_01:Agronomic
+
+[Term]
 id: UNH_01:0001001
 name: fruit plot count yield [ct]  
 def: "Plot fruit yield as total fruit count per plot" []
@@ -694,3 +704,59 @@ id: UNH_01:0001090
 name: pollination date [date]    
 def: "Date of pollination." []
 relationship: variable_of UNH_01:0000023 
+
+[Term]
+id: UNH_01:0001091
+name: warts presence-absence [cat]    
+def: "presence or absences of warts on fruit as smooth or warted" []
+relationship: variable_of UNH_01:0000027
+
+[Term]
+id: UNH_01:0001092
+name: ribbing type [cat]    
+def: "type of ribbing on pumpkins as smooth,single or double" []
+relationship: variable_of UNH_01:0000027
+
+[Term]
+id: UNH_01:0001093
+name: flesh L [nix3]
+def: "L colorspace measurement of flesh with the Nix Mini 3 colorimeter" []
+relationship: variable_of UNH_01:0000004 
+
+[Term]
+id: UNH_01:0001094
+name: flesh a [nix3]
+def: "a colorspace measurement of flesh with the Nix Mini 3 colorimeter"[]
+relationship: variable_of UNH_01:0000004 
+
+[Term]
+id: UNH_01:0001095
+name: flesh b [nix3]
+def: "b colorspace measurement of flesh with Nix Mini 3 colorimeter" []
+relationship: variable_of UNH_01:0000004 
+
+[Term]
+id: UNH_01:0001096
+name: rind L physiological maturity [nix3]
+def: "L colorspace measurement of rind at maturity with the Nix Mini 3 colorimeter" []
+relationship: variable_of UNH_01:0000004 
+
+[Term]
+id: UNH_01:0001097
+name: rind a physiological maturity [nix3]
+def: "a colorspace measurement of rind at maturity with the Nix Mini 3 colorimeter"[]
+relationship: variable_of UNH_01:0000004 
+
+[Term]
+id: UNH_01:0001098
+name: rind b physiological maturity [nix3]
+def: "b colorspace measurement of rind at maturity with Nix Mini 3 colorimeter" []
+relationship: variable_of UNH_01:0000004 
+
+[Term]
+id: UNH_01:0001099
+name: trichome texture petiole [cat]
+def: "trichome texture as extreme-thorny, scratchy, fuzzy, bumpy, and glabrous" []
+relationship: variable_of UNH_01:000028 
+
+
