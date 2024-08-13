@@ -764,3 +764,16 @@ id: UNH_01:0001100
 name: rind wart density [ord]    
 def: "Ordinal trait for density of warts on fruit from 0-4 (0=no warts, 2=medium density, 4=very dense)" []
 relationship: variable_of UNH_01:0000027
+
+[Term]
+id: UNH_01:0001101
+name: vine pattern [cat]    
+def: "Single stem or multistem" []
+relationship: variable_of UNH_01:0000020
+
+[Term]
+id: UNH_01:0001101
+name: vine pattern [cat]    
+def: "Single stem or multistem" []
+relationship: variable_of UNH_01:0000020
+
