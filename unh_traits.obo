@@ -757,6 +757,4 @@ relationship: variable_of UNH_01:0000004
 id: UNH_01:0001099
 name: trichome texture petiole [cat]
 def: "trichome texture as extreme-thorny, scratchy, fuzzy, bumpy, and glabrous" []
-relationship: variable_of UNH_01:000028 
-
-
+relationship: variable_of UNH_01:0000028

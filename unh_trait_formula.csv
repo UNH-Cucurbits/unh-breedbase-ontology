@@ -1,2 +1,2 @@
-trait_name,trait_formula
-percent dry matter [%]|UNH_01:0001020,( dry matter weight [g]|UNH_01:0001018 /  wet matter weight [g]|UNH_01:0001019) * 100
+trait_name	trait_formula
+percent dry matter [%]|UNH_01:0001020	( dry matter weight [g]|UNH_01:0001018 /  wet matter weight [g]|UNH_01:0001019) * 100
