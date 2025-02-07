@@ -772,19 +772,19 @@ def: "Single stem or multistem" []
 relationship: variable_of UNH_01:0000020
 
 [term]
-id: unh_01:0001101
+id: UNH_01:0001101
 name: vine pattern [cat]    
 def: "single stem or multistem" []
-relationship: variable_of unh_01:0000020
+relationship: variable_of UNH_01:0000020
 
 [term]
-id: unh_01:0001102
+id: UNH_01:0001102
 name: pollination date tag color [cat]    
 def: "color of pollination tag" []
-relationship: variable_of unh_01:0000023
+relationship: variable_of UNH_01:0000023
 
 [term]
-id: unh_01:0001103
+id: UNH_01:0001103
 name: plant harvest photo [cat]    
 def: "picture of single plant with fruit at harvest" []
-relationship: variable_of unh_01:0000014
+relationship: variable_of UNH_01:0000014
