@@ -172,6 +172,11 @@ name: Trichome
 is_a: UNH_01:Agronomic
 
 [Term]
+id: UNH_01:0000029
+name: Fruit rind hardness 
+is_a: UNH_01:Morphological
+
+[Term]
 id: UNH_01:0001001
 name: fruit plot count yield [ct]  
 def: "Plot fruit yield as total fruit count per plot" []
@@ -772,25 +777,30 @@ def: "Single stem or multistem" []
 relationship: variable_of UNH_01:0000020
 
 [term]
-id: UNH_01:0001101
-name: vine pattern [cat]    
-def: "single stem or multistem" []
-relationship: variable_of UNH_01:0000020
-
-[term]
 id: UNH_01:0001102
 name: pollination date tag color [cat]    
 def: "color of pollination tag" []
 relationship: variable_of UNH_01:0000023
 
-id: unh_01:0001103
+id: UNH_01:0001103
 name: plant harvest photo [photo]    
 def: "picture of single plant with fruit at harvest" []
-relationship: variable_of unh_01:0000014
+relationship: variable_of UNH_01:0000014
 
 [term]
-id: unh_01:0001104
+id: UNH_01:0001104
 name: rind color visual [cat]    
 def: "Visual scoring of fruit rind color as white, yellow-white, yellow, orange, tan or green" []
-relationship: variable_of unh_01:0000014
+relationship: variable_of UNH_01:0000003
 
+[term]
+id: UNH_01:0001105
+name: plot stay white [ord]    
+def: "Ordinal trait for fruit stay white ability from 1-4 (1=all fruit white, 4=all fruit yellowed" []
+relationship: variable_of UNH_01:0000003
+
+[term]
+id: UNH_01:0001106
+name: rind hardness axe [cat]    
+def: "Rind hardness scored by hitting fruit with axe as soft,semi-hard,hard" []
+relationship: variable_of UNH_01:0000029
