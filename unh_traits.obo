@@ -804,3 +804,52 @@ id: UNH_01:0001106
 name: rind hardness axe [cat]    
 def: "Rind hardness scored by hitting fruit with axe as soft,semi-hard,hard" []
 relationship: variable_of UNH_01:0000029
+
+[Term]
+id: UNH_01:0001107
+name: rind wart density 1st measurement [ord]    
+def: "First measurement for density of warts on fruit from 0-4 (0=no warts, 2=medium density, 4=very dense)" []
+relationship: variable_of UNH_01:0000027
+[Term]
+id: UNH_01:0001108
+name: rind wart density 2nd measurement [ord]    
+def: "Second measurement for density of warts on fruit from 0-4 (0=no warts, 2=medium density, 4=very dense)" []
+relationship: variable_of UNH_01:0000027
+
+[Term]
+id: UNH_01:0001109
+name: rind wart density 1st measurement date [date]    
+def: "Date of first rind wart density measurement" []
+relationship: variable_of UNH_01:0000024 
+
+[Term]
+id: UNH_01:0001110
+name: rind wart density 2nd measurement date [date]    
+def: "Date of second rind wart density measurement" []
+relationship: variable_of UNH_01:0000024 
+
+[Term]
+id: UNH_01:0001111
+name: warts presence-absence 1st measurement[cat]    
+def: "first measurement of presence or absences of warts on fruit as smooth or warted" []
+relationship: variable_of UNH_01:0000027
+
+[Term]
+id: UNH_01:0001112
+name: warts presence-absence 2nd measurement [cat]    
+def: "second measurement of presence or absences of warts on fruit as smooth or warted" []
+relationship: variable_of UNH_01:0000027
+
+[Term]
+id: UNH_01:0001113
+name: warts presence-absence 1st measurement date [date]    
+def: "warts presence-absence 1st measurement date" []
+relationship: variable_of UNH_01:0000024
+
+
+[Term]
+id: UNH_01:0001114
+name: warts presence-absence 2nd measurement date [date]    
+def: "warts presence-absence 2nd measurement date" []
+relationship: variable_of UNH_01:0000024
+
