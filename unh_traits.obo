@@ -854,3 +854,9 @@ name: warts presence-absence 2nd measurement date [date]
 def: "warts presence-absence 2nd measurement date" []
 relationship: variable_of UNH_01:0000024
 
+[Term]
+id: UNH_01:0001115
+name: plant sex expression type [cat]    
+def: "The pattern of male and female flower types on individual plants." []
+relationship: variable_of UNH_01:0000021
+
