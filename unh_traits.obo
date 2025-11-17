@@ -177,6 +177,11 @@ name: Fruit rind hardness
 is_a: UNH_01:Morphological
 
 [Term]
+id: UNH_01:0000030
+name: Fruit storage
+is_a: UNH_01:Quality
+
+[Term]
 id: UNH_01:0001001
 name: fruit plot count yield [ct]  
 def: "Plot fruit yield as total fruit count per plot" []
@@ -859,4 +864,18 @@ id: UNH_01:0001115
 name: plant sex expression type [cat]    
 def: "The pattern of male and female flower types on individual plants." []
 relationship: variable_of UNH_01:0000021
+
+
+[Term]
+id: UNH_01:0001116
+name: storage fruit number [ct]    
+def: "The total number of fruit set aside for storage phenotyping." []
+relationship: variable_of UNH_01:0000025
+
+
+[Term]
+id: UNH_01:0001117
+name: storage fruit rotted count [rept ct]    
+def: "The number of rotten fruit discarded at a particular time." []
+relationship: variable_of UNH_01:0000030
 
