@@ -182,6 +182,11 @@ name: Fruit storage
 is_a: UNH_01:Quality
 
 [Term]
+id: UNH_01:0000031
+name: Harvest date
+is_a: UNH_01:Management
+
+[Term]
 id: UNH_01:0001001
 name: fruit plot count yield [ct]  
 def: "Plot fruit yield as total fruit count per plot" []
@@ -879,3 +884,26 @@ name: storage fruit rotted count [rept ct]
 def: "The number of rotten fruit discarded at a particular time." []
 relationship: variable_of UNH_01:0000030
 
+[Term]
+id: UNH_01:0001118
+name: harvest date [date]    
+def: "Date of fruit harvest." []
+relationship: variable_of UNH_01:0000031
+
+[Term]
+id: UNH_01:0001119
+name: filled seed count [ct]    
+def: "Number of filled seed." []
+relationship: variable_of UNH_01:0000010
+
+[Term]
+id: UNH_01:0001120
+name: unfilled seed count [ct]    
+def: "Number of unfilled seed." []
+relationship: variable_of UNH_01:0000010
+
+[Term]
+id: UNH_01:0001121
+name: partially filled seed count [ct]    
+def: "Number of partially filled seed." []
+relationship: variable_of UNH_01:0000010
