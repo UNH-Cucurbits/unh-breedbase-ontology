@@ -476,8 +476,8 @@ relationship: variable_of UNH_01:0000023
 
 [Term]
 id: UNH_01:0001050
-name: quality measurement date [date]    
-def: "Date when quality measurements were taken" []
+name: fruit processing date [date]    
+def: "Date when fruit is processed for quality or other phenotypes" []
 relationship: variable_of UNH_01:0000024 
 
 [Term]
