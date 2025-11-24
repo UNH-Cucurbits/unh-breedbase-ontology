@@ -332,7 +332,7 @@ relationship: variable_of UNH_01:0000014
 
 [Term]
 id: UNH_01:0001026
-name: idividual fruit photo booth picture [photo]    
+name: individual fruit photo booth picture [photo]    
 def: "Photo of individual fruit taken in photo booth" []
 relationship: variable_of UNH_01:0000014 
 
@@ -464,7 +464,7 @@ relationship: variable_of UNH_01:0000020
 
 [Term]
 id: UNH_01:0001048
-name: idividual fruit photo [photo]    
+name: individual fruit photo [photo]    
 def: "Photo of individual fruit at maturity." []
 relationship: variable_of UNH_01:0000014 
 
@@ -482,37 +482,37 @@ relationship: variable_of UNH_01:0000024
 
 [Term]
 id: UNH_01:0001051
-name: fruit plot wieght multiple yield 1st [kg]    
+name: fruit plot weight multiple yield 1st [kg]    
 def: "First plot fruit yield as total fruit weight per plot in kilograms" []
 relationship: variable_of UNH_01:0000006 
 
 [Term]
 id: UNH_01:0001052
-name: fruit plot wieght multiple yield 2nd [kg]    
+name: fruit plot weight multiple yield 2nd [kg]    
 def: "Second plot fruit yield as total fruit weight per plot in kilograms" []
 relationship: variable_of UNH_01:0000006 
 
 [Term]
 id: UNH_01:0001053
-name: fruit plot wieght multiple yield 3rd [kg]    
+name: fruit plot weight multiple yield 3rd [kg]    
 def: "Third plot fruit yield as total fruit weight per plot in kilograms" []
 relationship: variable_of UNH_01:0000006 
 
 [Term]
 id: UNH_01:0001054
-name: fruit plot wieght multiple yield 4th [kg]    
+name: fruit plot weight multiple yield 4th [kg]    
 def: "Fourth plot fruit yield as total fruit weight per plot in kilograms" []
 relationship: variable_of UNH_01:0000006 
 
 [Term]
 id: UNH_01:0001055
-name: fruit plot wieght multiple yield 5th [kg]    
+name: fruit plot weight multiple yield 5th [kg]    
 def: "Fifth plot fruit yield as total fruit weight per plot in kilograms" []
 relationship: variable_of UNH_01:0000006 
 
 [Term]
 id: UNH_01:0001056
-name: fruit plot wieght multiple yield 6th [kg]    
+name: fruit plot weight multiple yield 6th [kg]    
 def: "Sixth plot fruit yield as total fruit weight per plot in kilograms" []
 relationship: variable_of UNH_01:0000006 
 
