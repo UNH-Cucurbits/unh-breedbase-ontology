@@ -194,7 +194,7 @@ relationship: variable_of UNH_01:0000006
 
 [Term]
 id: UNH_01:0001002
-name: fruit plot wieight yield [kg]    
+name: fruit plot weight yield [kg]    
 def: "Plot fruit yield as total fruit weight per plot in kilograms" []
 relationship: variable_of UNH_01:0000006 
 
@@ -907,3 +907,9 @@ id: UNH_01:0001121
 name: partially filled seed count [ct]    
 def: "Number of partially filled seed." []
 relationship: variable_of UNH_01:0000010
+
+[Term]
+id: UNH_01:0001122
+name: collected fruit count [ct]    
+def: "Number of fruit collected from observation unit." []
+relationship: variable_of UNH_01:0000025
