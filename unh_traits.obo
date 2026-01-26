@@ -914,36 +914,43 @@ name: collected fruit count [ct]
 def: "Number of fruit collected from observation unit." []
 relationship: variable_of UNH_01:0000025
 
+[Term]
 id: UNH_01:0001123
 name: pm upper leaf three [rept ord]    
 def: "Percent of the top of the third leaf infected with powdery mildew from 0-5 (0=0, 1=1-20, 2=21-40, 3=41-60, 4=61-80,5=81-100)" []
 relationship: variable_of UNH_01:0000017
 
+[Term]
 id: UNH_01:0001124
 name: pm lower leaf three [rept ord]    
 def: "Percent of the underside of the third leaf infected with powdery mildew from 0-5 (0=0, 1=1-20, 2=21-40, 3=41-60, 4=61-80,5=81-100)" []
 relationship: variable_of UNH_01:0000017
 
+[Term]
 id: UNH_01:0001125
 name: pm petiole three [rept ord]    
 def: "Percent of third petiole infected with powdery mildew from 0-5 (0=0, 1=1-20, 2=21-40, 3=41-60, 4=61-80,5=81-100)" []
 relationship: variable_of UNH_01:0000017
 
+[Term]
 id: UNH_01:0001126
 name: pm main stem [ord]    
 def: "Percent of the main stem infected with powdery mildew from 0-5 (0=0, 1=1-20, 2=21-40, 3=41-60, 4=61-80,5=81-100)" []
 relationship: variable_of UNH_01:0000017
 
+[Term]
 id: UNH_01:0001127
 name: pm lower leaf four [rept ord]    
 def: "Percent of the underside of the fourth leaf infected with powdery mildew from 0-5 (0=0, 1=1-20, 2=21-40, 3=41-60, 4=61-80,5=81-100)" []
 relationship: variable_of UNH_01:0000017
 
+[Term]
 id: UNH_01:0001128
 name: pm upper leaf four [rept ord]    
 def: "Percent of the top of the fourth leaf infected with powdery mildew from 0-5 (0=0, 1=1-20, 2=21-40, 3=41-60, 4=61-80,5=81-100)" []
 relationship: variable_of UNH_01:0000017
 
+[Term]
 id: UNH_01:0001129
 name: pm petiole four [rept ord]    
 def: "Percent of the fourth petiole infected by powdery mildew from 0-5 (0=0, 1=1-20, 2=21-40, 3=41-60, 4=61-80,5=81-100)" []
