@@ -955,3 +955,9 @@ id: UNH_01:0001129
 name: pm petiole four [rept ord]    
 def: "Percent of the fourth petiole infected by powdery mildew from 0-5 (0=0, 1=1-20, 2=21-40, 3=41-60, 4=61-80,5=81-100)" []
 relationship: variable_of UNH_01:0000017
+
+[Term]
+id: UNH_01:0001130
+name: fruit slip [cat]    
+def: "Presence or abscence of abscission layer at fruit maturity as slip/non-slip" []
+relationship: variable_of UNH_01:0000019
