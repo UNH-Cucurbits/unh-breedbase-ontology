@@ -934,7 +934,7 @@ relationship: variable_of UNH_01:0000017
 
 [Term]
 id: UNH_01:0001126
-name: pm main stem [ord]    
+name: pm main stem [rept ord]    
 def: "Percent of the main stem infected with powdery mildew from 0-5 (0=0, 1=1-20, 2=21-40, 3=41-60, 4=61-80,5=81-100)" []
 relationship: variable_of UNH_01:0000017
 
