@@ -969,6 +969,6 @@ relationship: variable_of UNH_01:0000019
 
 [Term]
 id: UNH_01:0001131
-name: parthenocarpy treatments [cat]     
-def: "Treatments for 262Parth experiment: bag-harvest, open, bag-set" []
+name: parthenocarpy treatment plant [cat]     
+def: "Treatments for 262Parth experiment, single plants: bag-harvest, open, bag-set" []
 relationship: variable_of UNH_01:0000032
