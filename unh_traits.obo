@@ -187,6 +187,11 @@ name: Harvest date
 is_a: UNH_01:Management
 
 [Term]
+id: UNH_01:0000032
+name: Treatment
+is_a: UNH_01:Management
+
+[Term]
 id: UNH_01:0001001
 name: fruit plot count yield [ct]  
 def: "Plot fruit yield as total fruit count per plot" []
@@ -961,3 +966,9 @@ id: UNH_01:0001130
 name: fruit set date plot [date]     
 def: "Date when over 50% of the plot has set fruit" []
 relationship: variable_of UNH_01:0000019
+
+[Term]
+id: UNH_01:0001131
+name: parthenocarpy treatments [cat]     
+def: "Treatments for 262Parth experiment: bag-harvest, open, bag-set" []
+relationship: variable_of UNH_01:0000032
