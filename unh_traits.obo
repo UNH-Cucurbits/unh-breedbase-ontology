@@ -961,3 +961,21 @@ id: UNH_01:0001130
 name: fruit set date plot [date]     
 def: "Date when over 50% of the plot has set fruit" []
 relationship: variable_of UNH_01:0000019
+
+[Term]
+id: UNH_01:0001131
+name: plant fruit count marketable [rept cnt]     
+def: "Single plant marketable fruit yield as number of marketable fruit harvested" []
+relationship: variable_of UNH_01:0000006
+[Term]
+
+id: UNH_01:0001132
+name: plant fruit count unmarketable [rept cnt]     
+def: "Single plant unmarketable fruit yield as number of unmarketable fruit harvested" []
+relationship: variable_of UNH_01:0000006
+
+[Term]
+id: UNH_01:0001133
+name: plant viable female flowers [rept cnt]     
+def: "Single plant count of viable female flowers; defined as fully mature flowers that open" []
+relationship: variable_of UNH_01:0000006
