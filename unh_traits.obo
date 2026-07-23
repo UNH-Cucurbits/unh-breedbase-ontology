@@ -967,8 +967,8 @@ id: UNH_01:0001131
 name: plant fruit count marketable [rept cnt]     
 def: "Single plant marketable fruit yield as number of marketable fruit harvested" []
 relationship: variable_of UNH_01:0000006
-[Term]
 
+[Term]
 id: UNH_01:0001132
 name: plant fruit count unmarketable [rept cnt]     
 def: "Single plant unmarketable fruit yield as number of unmarketable fruit harvested" []
