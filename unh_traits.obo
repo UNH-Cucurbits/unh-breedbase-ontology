@@ -979,3 +979,21 @@ id: UNH_01:0001133
 name: plant viable female flowers [rept cnt]     
 def: "Single plant count of viable female flowers; defined as fully mature flowers that open" []
 relationship: variable_of UNH_01:0000006
+
+[Term]
+id: UNH_01:0001134
+name: disease symptom photo [photo]     
+def: "Photo of a leaf, multiple leaves, plants etc. suspected of being diseased" []
+relationship: variable_of UNH_01:0000016
+
+[Term]
+id: UNH_01:0001135
+name: plot photo [photo]     
+def: "Photo of a plot" []
+relationship: variable_of UNH_01:0000016
+
+[Term]
+id: UNH_01:0001136
+name: disease incidence note [text]     
+def: "Note on disease symptoms/signs" []
+relationship: variable_of UNH_01:0000016
