@@ -997,3 +997,9 @@ id: UNH_01:0001136
 name: disease incidence note [text]     
 def: "Note on disease symptoms/signs" []
 relationship: variable_of UNH_01:0000016
+
+[Term]
+id: UNH_01:0001137
+name: melon fruit slip [cat]     
+def: "Melon harves stage as slip, forced-slip, no-slip" []
+relationship: variable_of UNH_01:0000019
