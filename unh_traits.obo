@@ -1003,3 +1003,9 @@ id: UNH_01:0001137
 name: melon fruit slip [cat]     
 def: "Melon harves stage as slip, forced-slip, no-slip" []
 relationship: variable_of UNH_01:0000019
+
+[Term]
+id: UNH_01:0001138
+name: storage fruit discard date [date]     
+def: "Date when fruit in storage was no longer marketable" []
+relationship: variable_of UNH_01:0000030
