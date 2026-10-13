@@ -350,7 +350,7 @@ relationship: variable_of UNH_01:0000003
 
 [Term]
 id: UNH_01:0001029
-name: rind b pysiological maturity [minolta]     
+name: rind b physiological maturity [minolta]     
 def: "b colorspace measurement of mature fruit rind with minolta colorimeter with illuminant D65 and 10% viewer" []
 relationship: variable_of UNH_01:0000003 
 
@@ -404,19 +404,19 @@ relationship: variable_of UNH_01:0000019
 
 [Term]
 id: UNH_01:0001038
-name: eigth internode length [cm]       
+name: eighth internode length [cm]       
 def: "Length in centimeters of internode between node 7 and 8" []
 relationship: variable_of UNH_01:0000020 
 
 [Term]
 id: UNH_01:0001039
-name: eigth internode length [mm]       
+name: eighth internode length [mm]       
 def: "Length in millimeter of internode between node 7 and 8" []
 relationship: variable_of UNH_01:0000020 
 
 [Term]
 id: UNH_01:0001040
-name: eigth internode thickness [mm]       
+name: eighth internode thickness [mm]       
 def: "Thickness in millimeter of internode between node 7 and 8" []
 relationship: variable_of UNH_01:0000020 
 
@@ -596,7 +596,7 @@ relationship: variable_of UNH_01:0000025
 
 [Term]
 id: UNH_01:0001070
-name: eigth internode measurment date [date]    
+name: eighth internode measurement date [date]    
 def: "Date of eigth internode measurement" []
 relationship: variable_of UNH_01:0000024 
 
@@ -754,19 +754,19 @@ relationship: variable_of UNH_01:0000004
 id: UNH_01:0001096
 name: rind L physiological maturity [nix3]
 def: "L colorspace measurement of rind at maturity with the Nix Mini 3 colorimeter" []
-relationship: variable_of UNH_01:0000004 
+relationship: variable_of UNH_01:0000003 
 
 [Term]
 id: UNH_01:0001097
 name: rind a physiological maturity [nix3]
 def: "a colorspace measurement of rind at maturity with the Nix Mini 3 colorimeter"[]
-relationship: variable_of UNH_01:0000004 
+relationship: variable_of UNH_01:0000003 
 
 [Term]
 id: UNH_01:0001098
 name: rind b physiological maturity [nix3]
 def: "b colorspace measurement of rind at maturity with Nix Mini 3 colorimeter" []
-relationship: variable_of UNH_01:0000004 
+relationship: variable_of UNH_01:0000003 
 
 [Term]
 id: UNH_01:0001099
