@@ -597,7 +597,7 @@ relationship: variable_of UNH_01:0000025
 [Term]
 id: UNH_01:0001070
 name: eighth internode measurement date [date]    
-def: "Date of eigth internode measurement" []
+def: "Date of eighth internode measurement" []
 relationship: variable_of UNH_01:0000024 
 
 [Term]
@@ -842,7 +842,7 @@ relationship: variable_of UNH_01:0000024
 
 [Term]
 id: UNH_01:0001111
-name: warts presence-absence 1st measurement[cat]    
+name: warts presence-absence 1st measurement [cat]    
 def: "first measurement of presence or absences of warts on fruit as smooth or warted" []
 relationship: variable_of UNH_01:0000027
 
